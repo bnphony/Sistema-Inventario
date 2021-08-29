@@ -50,5 +50,7 @@ print(obj)
 
 print("Hola Mundo")
 
+print("Holas")
+
 #for i in Type.objects.filter(name__icontains='Tu puedes')[:2]:
 #    print(i.name)
