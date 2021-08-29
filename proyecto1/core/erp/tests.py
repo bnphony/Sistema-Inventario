@@ -48,6 +48,7 @@ obj = Employee.objects.filter(type_id=18)
 print(obj)
 
 
+print("Hola Mundo")
 
 #for i in Type.objects.filter(name__icontains='Tu puedes')[:2]:
 #    print(i.name)
