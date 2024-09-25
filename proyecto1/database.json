@@ -1,0 +1,1446 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "erp",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "erp",
+    "model": "client"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "erp",
+    "model": "sale"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "erp",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "erp",
+    "model": "detsale"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "user",
+    "model": "user"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "b37n7xn98c5gprqgsvncgc2ptz2yce18",
+  "fields": {
+    "session_data": "YTczNmMwZDVhZDVhYmQ2ZWZiMzY3ZTY3OTNjZTdkZjE1ZTVmMzcxZTqABZWXAAAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKDdlZjYzYzJkNTUxOTE3NTIxOTJkZDAyZWJmY2Y2ZmI3YzVlMWIyOWGUdS4=",
+    "expire_date": "2021-10-01T04:04:39.500Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hign52vok70dw238ymwskdudvt8fvp7k",
+  "fields": {
+    "session_data": "YTczNmMwZDVhZDVhYmQ2ZWZiMzY3ZTY3OTNjZTdkZjE1ZTVmMzcxZTqABZWXAAAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKDdlZjYzYzJkNTUxOTE3NTIxOTJkZDAyZWJmY2Y2ZmI3YzVlMWIyOWGUdS4=",
+    "expire_date": "2021-10-02T19:56:02.286Z"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 6,
+  "fields": {
+    "name": "producto 2",
+    "cat": 12,
+    "image": "product/2021/09/15/schedule.png",
+    "stock": 198,
+    "pvp": "2340.00"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 7,
+  "fields": {
+    "name": "Producto 1",
+    "cat": 3,
+    "image": "product/2021/09/19/notes.png",
+    "stock": 0,
+    "pvp": "0.00"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 6,
+  "fields": {
+    "names": "dsfd",
+    "surnames": "fdsf",
+    "dni": "dsfd",
+    "date_birthday": "2021-09-06",
+    "address": "dsf",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 10,
+  "fields": {
+    "names": "cliente 1 EDITADO",
+    "surnames": "apelldio ",
+    "dni": "13432",
+    "date_birthday": "2021-09-07",
+    "address": "dfsdf",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 11,
+  "fields": {
+    "names": "susana",
+    "surnames": "lopez",
+    "dni": "3424",
+    "date_birthday": "2021-09-07",
+    "address": "dsfdsf",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 12,
+  "fields": {
+    "names": "sdfds",
+    "surnames": "dsfds",
+    "dni": "fdsf",
+    "date_birthday": "2021-09-07",
+    "address": "dfds",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 13,
+  "fields": {
+    "names": "cleinte ",
+    "surnames": "DLFJ",
+    "dni": "KSDJFL",
+    "date_birthday": "2021-09-07",
+    "address": "DFSLJKK",
+    "gender": "female"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 15,
+  "fields": {
+    "names": "dsffff",
+    "surnames": "fff",
+    "dni": "fff",
+    "date_birthday": "2021-09-18",
+    "address": "ff",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 16,
+  "fields": {
+    "names": "cliente nuevo",
+    "surnames": "sdfsd",
+    "dni": "dsfds",
+    "date_birthday": "2021-09-18",
+    "address": "dsfdsdsfd",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 17,
+  "fields": {
+    "names": "cliente nuevo 19d",
+    "surnames": "apelido sdfd",
+    "dni": "12312",
+    "date_birthday": "2021-09-19",
+    "address": "dffff",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 18,
+  "fields": {
+    "names": "nuevo cliente19b",
+    "surnames": "sdf",
+    "dni": "sdfds",
+    "date_birthday": "2021-09-19",
+    "address": "sdfds",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 3,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-09",
+    "subtotal": "2340.00",
+    "iva": "12.00",
+    "total": "2620.80"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 4,
+  "fields": {
+    "cli": 11,
+    "date_joined": "2021-09-09",
+    "subtotal": "234.00",
+    "iva": "18.00",
+    "total": "276.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 5,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-09",
+    "subtotal": "234.00",
+    "iva": "17.00",
+    "total": "273.78"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 6,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-15",
+    "subtotal": "4.00",
+    "iva": "19.00",
+    "total": "4.76"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 7,
+  "fields": {
+    "cli": 13,
+    "date_joined": "2021-09-10",
+    "subtotal": "14.00",
+    "iva": "17.00",
+    "total": "16.38"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 8,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-17",
+    "subtotal": "10.00",
+    "iva": "30.00",
+    "total": "13.00"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 9,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-15",
+    "subtotal": "2.00",
+    "iva": "12.00",
+    "total": "2.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 10,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-27",
+    "subtotal": "2.00",
+    "iva": "15.00",
+    "total": "2.30"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 11,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "2.00",
+    "iva": "12.00",
+    "total": "2.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 16,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 17,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 18,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 19,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 20,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 21,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 22,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 23,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 24,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 25,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 26,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 27,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 28,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 29,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 30,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 31,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 32,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 33,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 34,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 35,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 36,
+  "fields": {
+    "cli": 10,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 37,
+  "fields": {
+    "cli": 10,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 38,
+  "fields": {
+    "cli": 10,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 39,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "1.00",
+    "iva": "12.00",
+    "total": "1.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 40,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "3.00",
+    "iva": "12.00",
+    "total": "3.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 41,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-09-12",
+    "subtotal": "3.00",
+    "iva": "12.00",
+    "total": "3.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 42,
+  "fields": {
+    "cli": 6,
+    "date_joined": "2021-04-15",
+    "subtotal": "14.00",
+    "iva": "12.00",
+    "total": "15.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 43,
+  "fields": {
+    "cli": 16,
+    "date_joined": "2021-09-20",
+    "subtotal": "11700.00",
+    "iva": "12.00",
+    "total": "13104.00"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 44,
+  "fields": {
+    "cli": 16,
+    "date_joined": "2021-09-20",
+    "subtotal": "0.00",
+    "iva": "12.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 146,
+  "fields": {
+    "sale": 3,
+    "prod": 6,
+    "price": "2340.00",
+    "cant": 1,
+    "subtotal": "2340.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 148,
+  "fields": {
+    "sale": 43,
+    "prod": 6,
+    "price": "2340.00",
+    "cant": 5,
+    "subtotal": "11700.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 149,
+  "fields": {
+    "sale": 44,
+    "prod": 7,
+    "price": "0.00",
+    "cant": 89,
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Categoria",
+    "content_type": 6,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Categoria",
+    "content_type": 6,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Categoria",
+    "content_type": 6,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Categoria",
+    "content_type": 6,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Cliente",
+    "content_type": 7,
+    "codename": "add_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Cliente",
+    "content_type": 7,
+    "codename": "change_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Cliente",
+    "content_type": 7,
+    "codename": "delete_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Cliente",
+    "content_type": 7,
+    "codename": "view_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Venta",
+    "content_type": 8,
+    "codename": "add_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Venta",
+    "content_type": 8,
+    "codename": "change_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Venta",
+    "content_type": 8,
+    "codename": "delete_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Venta",
+    "content_type": 8,
+    "codename": "view_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 9,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 9,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 9,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 9,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Detalle de Venta",
+    "content_type": 10,
+    "codename": "add_detsale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Detalle de Venta",
+    "content_type": 10,
+    "codename": "change_detsale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Detalle de Venta",
+    "content_type": 10,
+    "codename": "delete_detsale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Detalle de Venta",
+    "content_type": 10,
+    "codename": "view_detsale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 11,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 11,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 11,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 11,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Administrador",
+    "permissions": [
+      35,
+      36,
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Gestor",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      37,
+      38,
+      39,
+      40,
+      33,
+      34,
+      35,
+      36,
+      29,
+      30,
+      31,
+      32,
+      17,
+      18,
+      19,
+      20,
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+},
+{
+  "model": "user.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$yIEf3EBdKtQz$Qb59oQVDQL9NZ5mvRncbeldO62lCwsrVBU3E87SAbG4=",
+    "last_login": "2021-09-18T19:56:02.276Z",
+    "is_superuser": true,
+    "username": "bryande",
+    "first_name": "Bryan",
+    "last_name": "Tarco",
+    "email": "bryan.tarco0918@utc.edu.ec",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-09-06T03:26:14Z",
+    "image": "",
+    "token": "2663b060-7675-46fb-88bd-b9062128859d",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$JuKz1m2b4Eel$rNv4EwHBVWYCVyAyrKadUsMQ7cEs434yflcSe08FWoM=",
+    "last_login": "2021-09-16T04:04:36.684Z",
+    "is_superuser": false,
+    "username": "holamundo",
+    "first_name": "hola",
+    "last_name": "mundo",
+    "email": "hola@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-14T19:00:19.970Z",
+    "image": "users/2021/09/14/recruitment.png",
+    "token": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$oq78iGAGF80A$8KbY7dLd4wtVrHLL5DuJJcRrVCC7fVFEoldMO1rOhpQ=",
+    "last_login": "2021-09-15T22:38:09.006Z",
+    "is_superuser": false,
+    "username": "hola1mundo1",
+    "first_name": "hola1",
+    "last_name": "mundo1",
+    "email": "hola1@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-14T19:03:23.871Z",
+    "image": "users/2021/09/14/sitio-web.png",
+    "token": null,
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$T35RttaGt0xb$UTMYdhcfDdYw+MJEh5RKRWPbZPCEP27eMX3rs//VzKQ=",
+    "last_login": "2021-09-16T04:04:23.220Z",
+    "is_superuser": false,
+    "username": "usuario1",
+    "first_name": "usuario1",
+    "last_name": "mudno1",
+    "email": "usuario1@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-14T22:11:26.209Z",
+    "image": "users/2021/09/14/salud.png",
+    "token": null,
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$HT4ipHYbWj3L$fCecLdfoSpwB5CLpkAq5RLK2tfelAdmP9Px0BZ/ZtQI=",
+    "last_login": "2021-09-15T22:41:03.452Z",
+    "is_superuser": false,
+    "username": "usuario2",
+    "first_name": "usuario2",
+    "last_name": "mundo2",
+    "email": "usuario@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-14T22:18:23.283Z",
+    "image": "users/2021/09/14/schedule.png",
+    "token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$HEogT0PyRtgb$fVu0XPcWMMP7hUAbAoq803dxZ1pOfkJdGf93PY1PLsg=",
+    "last_login": "2021-09-16T04:03:49.878Z",
+    "is_superuser": false,
+    "username": "usuario3",
+    "first_name": "hola3",
+    "last_name": "mundo3",
+    "email": "hola3@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-15T22:42:02.610Z",
+    "image": "users/2021/09/15/rocket.png",
+    "token": null,
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 3,
+  "fields": {
+    "user_creation": 1,
+    "date_creation": "2021-09-10T03:50:55.635Z",
+    "user_updated": null,
+    "date_updated": "2021-09-10T03:50:55.635Z",
+    "name": "sdf",
+    "desc": null
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 12,
+  "fields": {
+    "user_creation": 1,
+    "date_creation": "2021-09-14T21:53:42.397Z",
+    "user_updated": null,
+    "date_updated": "2021-09-14T21:53:42.397Z",
+    "name": "sdfdssdf",
+    "desc": "dsfds"
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 20,
+  "fields": {
+    "user_creation": 1,
+    "date_creation": "2021-09-14T21:53:42.397Z",
+    "user_updated": null,
+    "date_updated": "2021-09-14T21:53:42.397Z",
+    "name": "Insertado desde un import",
+    "desc": "tu puedes djddd"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-09-06T03:26:58.884Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "bryan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-09-07T02:52:46.962Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "bryan1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-09-14T22:29:26.856Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-09-14T22:31:03.793Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Gestor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-09-15T22:19:24.112Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-09-15T22:21:39.748Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-09-15T22:22:40.471Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-09-15T22:35:21.706Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-09-15T22:48:16.679Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-09-15T22:49:23.868Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+}
+]

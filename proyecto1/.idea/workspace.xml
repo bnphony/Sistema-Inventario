@@ -1,7 +1,1021 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="191baf16-32a0-48d8-a410-1062bdd26a13" name="Default Changelist" comment="" />
+    <list default="true" id="191baf16-32a0-48d8-a410-1062bdd26a13" name="Default Changelist" comment="UPdate">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/static/category/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/static/client/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/static/product/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/static/sale/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/static/sale/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/category/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/category/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/client/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/product/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/product/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/sale/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/sale/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/sale/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/sale/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/views/category/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/views/client/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/views/dashboard/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/views/product/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/views/sale/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/views/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/views/tests/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio-details-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio-details-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio-details-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/portfolio/portfolio-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/profile-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/testimonials/testimonials-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/testimonials/testimonials-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/testimonials/testimonials-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/testimonials/testimonials-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/img/testimonials/testimonials-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/aos/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/aos/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/css/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/css/boxicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/css/transformations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/boxicons/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/counterup/counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/icofont/fonts/icofont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/icofont/fonts/icofont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/icofont/icofont.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/isotope-layout/isotope.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/owl.carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/php-email-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/typed.js/typed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/typed.js/typed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/typed.js/typed.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/venobox/venobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/venobox/venobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/venobox/venobox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/venobox/venobox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/static/vendor/waypoints/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/homepage/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/login/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/login/templates/login/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/login/templates/login/changepwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/login/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/login/templates/login/resetpwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/login/templates/login/send_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/login/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/reports/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/reports/static/sale/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/reports/templates/sale/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/reports/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/static/user/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/static/user/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/templates/user/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/templates/user/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/templates/user/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/templates/user/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/templates/user/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/usuario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/category/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/myStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/adminlte.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/adminlte.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/adminlte.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/adminlte.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.components.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.components.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.core.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.core.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.core.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.extra-components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.extra-components.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.extra-components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.extra-components.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.pages.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.pages.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.pages.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.pages.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.plugins.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/css/alt/adminlte.plugins.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/AdminLTELogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/default-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/prod-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/prod-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/prod-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/prod-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/prod-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/js/adminlte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/js/adminlte.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/js/adminlte.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/js/pages/dashboard3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/brands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/brands.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/conflict-detection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/conflict-detection.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/fontawesome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/regular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/regular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/solid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/solid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/v4-shims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/js/v4-shims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/font-awesome-5.11.1/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/adminlte-3.0.4/plugins/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/bootstrap-touchspin-4.3.0/jquery.bootstrap-touchspin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/bootstrap-touchspin-4.3.0/jquery.bootstrap-touchspin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.20/images/details_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.20/images/details_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/daterangepicker-3.1/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/daterangepicker-3.1/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/daterangepicker-3.1/spanish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/annotations/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/annotations/popup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/highcharts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/highcharts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/stocktools/gui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/stocktools/gui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/themes/dark-unica.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/themes/dark-unica.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/themes/grid-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/themes/grid-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/themes/sand-signika.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/css/themes/sand-signika.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/ControlPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/MockPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/controllable/ControllableCircle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/controllable/ControllableImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/controllable/ControllableLabel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/controllable/ControllablePath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/controllable/ControllableRect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/controllable/controllableMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/controllable/markerMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/eventEmitterMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/navigationBindings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/BasicAnnotation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/CrookedLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/ElliottWave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/Fibonacci.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/InfinityLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/Measure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/Pitchfork.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/Tunnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/annotations/types/VerticalLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/error-messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/highcharts-3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/accessibility.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/annotations-advanced.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/arrow-symbols.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/boost-canvas.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/boost.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/broken-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/bullet.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/coloraxis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/current-date-indicator.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/cylinder.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/datagrouping.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/debugger.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/dependency-wheel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/dotplot.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/drag-panes.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/draggable-points.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/dumbbell.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/export-data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/full-screen.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/funnel3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/gantt.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/grid-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/histogram-bellcurve.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/item-series.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/lollipop.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/marker-clusters.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/networkgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/offline-exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/oldie-polyfills.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/oldie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/organization.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/overlapping-datalabels.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/parallel-coordinates.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/pareto.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/pathfinder.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/pattern-fill.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/price-indicator.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/pyramid3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/sankey.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/series-label.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/solid-gauge.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/sonification.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/static-scale.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/stock-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/stock.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/streamgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/sunburst.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/tilemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/timeline.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/treegrid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/treemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/variable-pie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/variwide.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/vector.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/venn.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/windbarb.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/wordcloud.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/modules/xrange.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/avocado.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/dark-blue.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/dark-green.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/dark-unica.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/gray.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/grid-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/grid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/high-contrast-dark.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/high-contrast-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/sand-signika.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/skies.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/masters/themes/sunset.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/centered-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/derived-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/download-url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/draw-point.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/geometry-circles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/geometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/indicator-required.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/legend-symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/multipe-lines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/nelder-mead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/nodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/on-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/polygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/reduce-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/mixins/tree-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/AccessibilityComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/KeyboardNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/KeyboardNavigationHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/a11y-i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/AnnotationsA11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/ContainerComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/InfoRegionsComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/InfoRegionsComponent/AnnotationsA11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/InfoRegionsComponent/InfoRegionsComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/LegendComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/MenuComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/RangeSelectorComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/SeriesComponent/NewDataAnnouncer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/SeriesComponent/SeriesComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/SeriesComponent/SeriesDescriber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/SeriesComponent/SeriesKeyboardNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/SeriesComponent/forcedMarkers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/components/ZoomComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/focusBorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/high-contrast-mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/high-contrast-theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/options/deprecatedOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/options/langOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/options/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/utils/Announcer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/utils/DOMElementProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/utils/EventProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/utils/chartUtilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/accessibility/utils/htmlUtilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/bellcurve.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost-canvas.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/boost-attach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/boost-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/boost-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/boost-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/boost-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/boost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/boostable-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/boostables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/named-colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/wgl-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/wgl-shader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/boost/wgl-vbuffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/broken-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/bullet.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/cylinder.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/debugger.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/dependency-wheel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/dotplot.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/drag-panes.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/draggable-points.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/dumbbell.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/export-data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/full-screen.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/funnel3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/histogram.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/item-series.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/lollipop.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/marker-clusters.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/networkgraph/QuadTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/networkgraph/draggable-nodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/networkgraph/integrations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/networkgraph/layouts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/networkgraph/networkgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/offline-exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/oldie-polyfills.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/oldie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/organization.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/overlapping-datalabels.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/parallel-coordinates.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/pareto.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/pattern-fill.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/price-indicator.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/pyramid3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sankey.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/series-label.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/solid-gauge.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/Earcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/Instrument.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/Timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/chartSonify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/instrumentDefinitions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/musicalFrequencies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/pointSonify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/sonification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sonification/utilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/static-scale.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/stock-tools-bindings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/stock-tools-gui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/streamgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/sunburst.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/tilemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/timeline.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/treemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/variable-pie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/variwide.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/vector.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/venn.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/windbarb.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/wordcloud.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/modules/xrange.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/Axis3D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/Chart3D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/Column.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/Math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/Pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/SVGRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/Scatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/Series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/Tick3D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/VMLAxis3D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/VMLRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-3d/ZAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/ArrowSymbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/CurrentDateIndicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/GanttChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/GanttSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/GridAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/Pathfinder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/PathfinderAlgorithms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/Tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/TreeGridAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-gantt/TreeGridTick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/ColorAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/ColorMapSeriesMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/ColorSeriesMixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/GeoJSON.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/HeatmapSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/Map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/MapAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/MapBubbleSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/MapLineSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/MapNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/MapPointSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/MapPointer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-map/MapSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/AreaRangeSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/AreaSplineRangeSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/BoxPlotSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/BubbleLegend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/BubbleSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/ColumnPyramidSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/ColumnRangeSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/ErrorBarSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/GaugeSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/HiddenAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/PackedBubbleSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/Pane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/Polar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/PolygonSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/RadialAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts-more/WaterfallSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/AreaSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/AreaSplineSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/BarSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/CandlestickSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/ColumnSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/DataGrouping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/DataLabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/DateTimeAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Dynamics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/FlagsSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Globals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Interaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Legend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/LogarithmicAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/MSPointer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Navigator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/NavigatorAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/OHLCSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/OrdinalAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/PieSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/PlotLineOrBand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Point.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Pointer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/RangeSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/SVGElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/SVGLabel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/SVGRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/ScatterSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/ScrollablePlotArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/ScrollbarAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/SplineSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Stacking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/StackingAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/StockChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Tick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/parts/Utilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/avocado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/high-contrast-dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/high-contrast-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/es-modules/themes/sunset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts-3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts-3d.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts-3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts-more.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/lib/canvg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/lib/canvg.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/lib/jspdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/lib/jspdf.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/lib/rgbcolor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/lib/rgbcolor.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/lib/svg2pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/lib/svg2pdf.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/accessibility.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/accessibility.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/annotations-advanced.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/annotations-advanced.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/annotations-advanced.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/annotations.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/arrow-symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/arrow-symbols.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/arrow-symbols.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/boost-canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/boost-canvas.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/boost-canvas.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/boost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/boost.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/boost.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/broken-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/broken-axis.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/broken-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/bullet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/bullet.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/coloraxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/coloraxis.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/coloraxis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/current-date-indicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/current-date-indicator.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/current-date-indicator.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/cylinder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/cylinder.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/cylinder.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/data.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/datagrouping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/datagrouping.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/datagrouping.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/debugger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/debugger.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/debugger.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dependency-wheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dependency-wheel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dependency-wheel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dotplot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dotplot.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dotplot.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/drag-panes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/drag-panes.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/drag-panes.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/draggable-points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/draggable-points.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/draggable-points.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/drilldown.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dumbbell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dumbbell.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/dumbbell.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/export-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/export-data.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/export-data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/exporting.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/full-screen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/full-screen.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/full-screen.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/funnel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/funnel3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/funnel3d.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/funnel3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/gantt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/gantt.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/gantt.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/grid-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/grid-axis.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/grid-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/heatmap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/histogram-bellcurve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/histogram-bellcurve.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/histogram-bellcurve.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/item-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/item-series.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/item-series.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/lollipop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/lollipop.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/lollipop.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/marker-clusters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/marker-clusters.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/marker-clusters.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/networkgraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/networkgraph.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/networkgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/no-data-to-display.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/offline-exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/offline-exporting.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/offline-exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/oldie-polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/oldie-polyfills.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/oldie-polyfills.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/oldie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/oldie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/oldie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/organization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/organization.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/organization.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/overlapping-datalabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/overlapping-datalabels.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/overlapping-datalabels.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/parallel-coordinates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/parallel-coordinates.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/parallel-coordinates.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pareto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pareto.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pareto.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pathfinder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pathfinder.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pathfinder.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pattern-fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pattern-fill.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pattern-fill.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/price-indicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/price-indicator.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/price-indicator.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pyramid3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pyramid3d.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/pyramid3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sankey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sankey.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sankey.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/series-label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/series-label.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/series-label.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/solid-gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/solid-gauge.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/solid-gauge.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sonification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sonification.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sonification.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/static-scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/static-scale.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/static-scale.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/stock-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/stock-tools.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/stock-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/stock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/stock.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/stock.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/streamgraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/streamgraph.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/streamgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sunburst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sunburst.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/sunburst.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/tilemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/tilemap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/tilemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/timeline.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/timeline.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/treegrid.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/treegrid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/treemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/treemap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/treemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/variable-pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/variable-pie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/variable-pie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/variwide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/variwide.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/variwide.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/vector.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/vector.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/venn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/venn.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/venn.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/windbarb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/windbarb.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/windbarb.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/wordcloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/wordcloud.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/wordcloud.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/xrange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/xrange.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/modules/xrange.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/avocado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/avocado.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/avocado.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-blue.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-blue.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-green.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-green.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-unica.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/dark-unica.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/gray.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/gray.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/grid-light.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/grid-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/grid.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/grid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/high-contrast-dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/high-contrast-dark.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/high-contrast-dark.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/high-contrast-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/high-contrast-light.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/high-contrast-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/sand-signika.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/sand-signika.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/skies.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/skies.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/sunset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/sunset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/highcharts-8.1.2/themes/sunset.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-confirm-v3.3.4/jquery-confirm.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-confirm-v3.3.4/jquery-confirm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/jquery-ui-1.12.1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/moment-2.25.3/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/moment-2.25.3/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2-bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/build.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/dsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/tk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/select2-4.0.13/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/formulario.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hzt/body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hzt/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/segundosd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/send.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vtc/body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vtc/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vtc/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/proyecto1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/proyecto1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0002_employee_gender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0003_remove_employee_gender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0004_auto_20210828_1515.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0005_auto_20210828_1519.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/migrations/0006_auto_20210828_1529.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,22 +1025,67 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1xMyn5YvSJxEUqaDD1AUY3XibAs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PracticaDeploy/PracticaDeploy" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\core\login\templates\login" />
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\core\user\static\user\js" />
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\core" />
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\core\erp\static\client\js" />
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\core\erp\views\tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\core\login\templates\login" />
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\templates" />
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\static\lib" />
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\media" />
+      <recent name="C:\Users\windows\Documents\django\Aplicaciones\victoria\proyecto1\static\lib\datatables-1.10.20\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.tests">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proyecto1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proyecto1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,9 +1107,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proyecto1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/erp/views/category" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/erp/views/category/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.tests" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -65,32 +1147,50 @@
       <option name="presentableId" value="Default" />
       <updated>1630179415485</updated>
     </task>
+    <task id="LOCAL-00001" summary="UPdate">
+      <created>1630276593865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630276593865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="UPdate">
+      <created>1630276725136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630276725136</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UPdate">
+      <created>1630292959961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630292959961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UPdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPdate" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="465" height="171" key="GridCell.Tab.0.bottom" timestamp="1630275482885">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1727282577301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="465" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630275482885" />
-    <state width="465" height="171" key="GridCell.Tab.0.center" timestamp="1630275482883">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="465" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630275482883" />
-    <state width="465" height="171" key="GridCell.Tab.0.left" timestamp="1630275482883">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="465" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630275482883" />
-    <state width="465" height="171" key="GridCell.Tab.0.right" timestamp="1630275482885">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="465" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630275482885" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1630179489446">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1630179489446" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1630181580630">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1630181580630" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1727282577301" />
   </component>
 </project>

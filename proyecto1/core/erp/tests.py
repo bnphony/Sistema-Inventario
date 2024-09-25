@@ -1,56 +1,31 @@
-from config.wsgi import *
-from core.erp.models import Type, Employee
+from django import setup
+import os
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
+setup()
+
+
+from core.erp.models import *
+import random
+
+data = ['Leche y derivados', 'Carnes, pescados y huevos', 'Patatas, legumbres, frutos secos',
+        'Verduras y Hortalizas', 'Frutas', 'Cereales y derivados, azúcar y dulces',
+        'Grasas, aceite y mantequilla']
+
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
+           'u', 'v', 'w', 'x', 'y', 'z']
+
+for i in range(1, 60):
+    name = ''.join(random.choices(letters, k=5))
+    while Category.objects.filter(name=name).exists():
+        name = ''.join(random.choices(letters, k=5))
+    # Category(name=name).save()
+    print('Guardado registro {}'.format(i))
 
 
 
+# for i in data:
+#     cat = Category(name=i)
+#     cat.save()
+#     print('Guardado registro N°{}'.format(cat.id))
 
-"""
-t = Type()
-t.name = 'Tu puedes 7'
-t.save()
-"""
-"""
-try:
-    t = Type.objects.get(id=10)
-    t.name = 'Hola'
-    t.save()
-    print(t.name)
-except Exception as e:
-    print(e)
-
-"""
-
-
-#t = Type.objects.get(id=10)
-#t.delete()
-
-#query = Type.objects.all()
-#print(query)
-
-#buscar los registros que el campo nombre contenga una cadena
-obj = Type.objects.filter(name__contains='tu puedes')
-#Buscar los registros que el campo nombre contenga una cadena sin
-#sin importar mayusculas o minisculas
-obj = Type.objects.filter(name__icontains='tu puedes')
-obj = Type.objects.filter(name__startswith='p')
-obj = Type.objects.filter(name__endswith='a')
-obj = Type.objects.filter(name__in=['Tu puedes']).count()
-print(obj)
-
-consulta = Type.objects.filter(name__icontains='Tu puedes').query
-consulta = Type.objects.filter(name__icontains='Tu puedes').exclude(id=18)
-#print(consulta)
-
-#for i in Type.objects.filter(name__icontains='Tu puedes'):
-#    print(i.name)
-
-obj = Employee.objects.filter(type_id=18)
-print(obj)
-
-
-print("Hola Mundo")
-
-print("Holas")
-
-#for i in Type.objects.filter(name__icontains='Tu puedes')[:2]:
-#    print(i.name)

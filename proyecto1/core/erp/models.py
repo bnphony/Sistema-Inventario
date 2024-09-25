@@ -1,15 +1,33 @@
+from crum import get_current_user
 from django.db import models
 from datetime import datetime
+from django.forms import model_to_dict
 
-# Create your models here.
+from config.settings import MEDIA_URL, STATIC_URL
+from core.models import BaseModel
 
 
-
-class Category(models.Model):
+class Category(BaseModel):
     name = models.CharField(max_length=100, verbose_name='Nombre', unique=True)
+    desc = models.CharField(max_length=100, null=True, blank=True, verbose_name='Descripcion')
 
     def __str__(self):
         return 'Nombre: {}'.format(self.name)
+
+    def save(self, force_insert=False, force_update=False, using=None,
+             update_fields=None):
+        user = get_current_user()
+
+        if user is not None:
+            if not self.pk:
+                self.user_creation = user
+            else:
+                self.user_updated = user
+        super(Category, self).save()
+
+    def toJSON(self):
+        item = model_to_dict(self, exclude=['user_creation', 'user_updated'])
+        return item
 
     class Meta:
         verbose_name = 'Categoria'
@@ -20,12 +38,26 @@ class Category(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=150, verbose_name='Nombre', unique=True)
-    cate = models.ForeignKey(Category, on_delete=models.CASCADE)
-    image = models.ImageField(upload_to='product/%Y/%m/%d', null=True, blank=True)
-    pvp = models.DecimalField(default=0.00, max_digits=9, decimal_places=2)
+    cat = models.ForeignKey(Category, on_delete=models.CASCADE, verbose_name='Categoria')
+    image = models.ImageField(upload_to='product/%Y/%m/%d', null=True, blank=True, verbose_name='Imagen')
+    stock = models.IntegerField(default=0, verbose_name='Stock')
+    pvp = models.DecimalField(default=0.00, max_digits=9, decimal_places=2, verbose_name='Precio de Venta')
 
     def __str__(self):
         return self.name
+
+    def toJSON(self):
+        item = model_to_dict(self)
+        item['full_name'] = '{} / {}'.format(self.name, self.cat.name)
+        item['cat'] = self.cat.toJSON()
+        item['image'] = self.get_image()
+        item['pvp'] = format(self.pvp, '.2f')
+        return item
+
+    def get_image(self):
+        if self.image:
+            return '{}{}'.format(MEDIA_URL, self.image)
+        return '{}{}'.format(STATIC_URL, 'img/empty.png')
 
     class meta:
         verbose_name = 'Producto'
@@ -34,15 +66,29 @@ class Product(models.Model):
 
 
 class Client(models.Model):
+    GENDER_MALE = 'male'
+    GENDER_FEMALE = 'female'
+    gender_choices = [(GENDER_MALE, 'Masculino'), (GENDER_FEMALE, 'Femenino')]
+
     names = models.CharField(max_length=150, verbose_name='Nombres')
     surnames = models.CharField(max_length=150, verbose_name='Apellidos')
     dni = models.CharField(max_length=10, unique=True, verbose_name='Dni')
-    birthday = models.DateField(default=datetime.now, verbose_name='Fecha de Nacimiento')
+    date_birthday = models.DateField(default=datetime.now, verbose_name='Fecha de Nacimiento')
     address = models.CharField(max_length=150, null=True, blank=True, verbose_name='Direccion')
-    sexo = models.CharField(max_length=10, choices=gender_choices, default='male', verbose_name='Sexo')
+    gender = models.CharField(max_length=10, choices=gender_choices, default='male', verbose_name='Sexo')
 
     def __str__(self):
-        return self.names
+        return self.get_full_name()
+
+    def get_full_name(self):
+        return '{} {} / {}'.format(self.names, self.surnames, self.dni)
+
+    def toJSON(self):
+        item = model_to_dict(self)
+        item['gender'] = {'id': self.gender, 'name': self.get_gender_display()}
+        item['date_birthday'] = self.date_birthday.strftime('%Y-%m-%d')
+        item['full_name'] = self.get_full_name()
+        return item
 
     class Meta:
         verbose_name = 'Cliente'
@@ -53,11 +99,27 @@ class Sale(models.Model):
     cli = models.ForeignKey(Client, on_delete=models.CASCADE)
     date_joined = models.DateField(default=datetime.now)
     subtotal = models.DecimalField(default=0.00, max_digits=9, decimal_places=2)
-    iva = models.DecimalField(default=0.00, max_digits=9, decimal_places=2)
+    iva = models.DecimalField(default=12, max_digits=9, decimal_places=2)
     total = models.DecimalField(default=0.00, max_digits=9, decimal_places=2)
 
     def __str__(self):
         return self.cli.names
+
+    def toJSON(self):
+        item = model_to_dict(self)
+        item['cli'] = self.cli.toJSON()
+        item['subtotal'] = format(self.subtotal, '.2f')
+        item['iva'] = format(self.iva, '.2f')
+        item['total'] = format(self.total, '.2f')
+        item['date_joined'] = self.date_joined.strftime('%Y-%m-%d')
+        item['det'] = [i.toJSON() for i in self.detsale_set.all()]
+        return item
+
+    def delete(self, using=None, keep_parents=False):
+        for det in self.detsale_set.all():
+            det.prod.stock += det.cant
+            det.prod.save()
+        super(Sale, self).delete()
 
     class Meta:
         verbose_name = 'Venta'
@@ -75,6 +137,13 @@ class DetSale(models.Model):
     def __str__(self):
         return self.prod.name
 
+    def toJSON(self):
+        item = model_to_dict(self, exclude=['sale'])
+        item['prod'] = self.prod.toJSON()
+        item['price'] = format(self.price, '.2f')
+        item['subtotal'] = format(self.subtotal, '.2f')
+        return item
+
     class Meta:
         verbose_name = 'Detalle de Venta'
         verbose_name_plural = 'Detalle de Ventas'
@@ -82,7 +151,7 @@ class DetSale(models.Model):
 
 """
 class Employee(models.Model):
-    categ = models.ManyToManyField(Category)
+    categ = models.ManyToManyField(category)
     type = models.ForeignKey(Type, on_delete=models.CASCADE)
     names = models.CharField(max_length=200, verbose_name='Nombres', default='Sin Nombres')
     dni = models.CharField(max_length=10, unique=True, verbose_name='Dni')

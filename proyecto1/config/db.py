@@ -9,6 +9,7 @@ SQLITE = {
     }
 }
 
+# Se requiere instalar la libreria psycopg2
 POSTGRESQL = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -17,5 +18,21 @@ POSTGRESQL = {
         'PASSWORD': '123456789',
         'HOST': 'localhost',
         'PORT': '5432'
+    }
+}
+
+# Se requiere instalar la liberia mysqlclient
+
+MYSQL = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'certificado',
+        'USER': 'hola',
+        'PASSWORD': 'Touhou33',
+        'HOST': '127.0.0.1',
+        'PORT': '3308',
+        # 'OPTIONS': {
+        #     'sql_mode': 'traditional',
+        # }
     }
 }
