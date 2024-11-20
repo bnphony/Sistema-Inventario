@@ -5,7 +5,8 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/general.PNG" width="80%" alt="Main Screen">
-
+  <br/><br/>
+  
   ![GitHub](https://img.shields.io/github/last-commit/bnphony/Sistema-Inventario)
   [![Django](https://img.shields.io/badge/Framework-Django-green)](https://www.djangoproject.com/)
   [![Python](https://img.shields.io/badge/Code-Python-fd81f)](https://www.python.org/)
@@ -19,15 +20,16 @@
 
 ## Indice
 
-- [Calificar Series](#calificar-series)
+- [Sistema de Inventario](#sistema-de-inventario)
   - [Descripción](#descripción)
      - [Tecnologías](#tecnologías)
   - [Dominio](#dominio)
-     - [Categoría](#categoría)
-     - [Serie](#serie)
-     - [Episodio](#episodio)
      - [Usuario](#usuario)
-     - [Usuario Token](#usuario-token)
+     - [Categoría](#categoría)
+     - [Producto](#producto)
+     - [Cliente](#cliente)
+     - [Venta](#venta)
+     - [Descripción de la Venta](#descripción-de-la-venta)
   - [Funciones](#funciones)
   - [Autor](#autor)
      - [Contacto](#contacto)
@@ -155,7 +157,7 @@ Gestionar usuarios, categorías, productos, clientes, ventas, generar reportes.
       <div align="center">
         <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/reset_password.PNG" width="80%" alt="Reset Password">
         <p>
-          - Un Usuario puede cambiar su contraseña utilizando su nombre nombre de usuario, con esto se le envía un link a su email con el procedimiento debido.
+          - Un Usuario puede cambiar su contraseña utilizando su nombre nombre de usuario, con esto se le envía un link a su email con el procedimiento correspondiente.
         </p>
       </div>
     </td>
@@ -164,7 +166,7 @@ Gestionar usuarios, categorías, productos, clientes, ventas, generar reportes.
     <td witdh="100%" colspan="2">
       <h3 align="center">Gestionar Categorías</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/reset_password.PNG" width="80%" alt="Categories">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/categorias.PNG" width="80%" alt="Categories">
         <p>
           - Crear, actualizar, listar, eliminar categorías.
         </p>
@@ -200,56 +202,51 @@ Gestionar usuarios, categorías, productos, clientes, ventas, generar reportes.
     <td width="100%" colspan="2">
       <h3 align="center">Gestionar Ventas</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/reset_password.PNG" width="80%" alt="Update/Delete Serie">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/ventas.PNG" width="80%" alt="Sales">
         <p>
-          - Actualizar o Eliminar la información de una serie asi como todos sus capitulos.          
+          - Crear, actualizar, listar, eliminar ventas.          
+        </p>
+        <br/>
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/detalle_venta.PNG" width="80%" alt="Sales">
+        <p>
+          - Descripción de la venta: productos vendidos, cliente, fecha de la venta, subtotal, IVA y precio total.   
         </p>
       </div>
     </td>
   </tr>
+  
   <tr>
     <td witdh="100%" colspan="2">
-      <h3 align="center">Valoración de Capítulos Interactivo</h3>
+      <h3 align="center">Generación de Reportes de Ventas</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/serie_interactive.PNG" width="80%" alt="Serie Interactive">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/date_picker.PNG" width="40%" alt="Date Range">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/reporte.PNG" width="40%" alt="Report">
         <p>
-          - El usuario puede arrastrar los nodos para asignar la nota correspondiente a cada capitulo. <br/>
-          - El promedio general de la aserie se va actualizando automaticamente. <br/>
-          - Los nodos formas una grafíca, facilitando la valoración general. <br/>
-          - Doble Click en un nodo: abrir modal de configuración del capítulo. <br/>
-          - Click Derecho en un nodo: confirmar la eliminación del capítulo. <br/>
+          - El usuario puede escoger el rango de fecha de los reportes.
+          - Opciones para descargar el reporte en formato excel o pdf.
         </p>
       </div>
     </td>
   </tr>
+  
   <tr>
     <td width="100%" colspan="2">
-      <h3 align="center">Información Breve del Capítulo</h3>
+      <h3 align="center">Gestionar Usuarios</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/tooltip.PNG" width="80%" alt="Tooltip">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/usuarios.PNG" width="80%" alt="Users">
         <p>
-          - Al pasar el mouse sobre encima de un nodo: presentación del título, la imagen y un poco de la descripción del capítulo.
+          - Crear, actualizar, listar, eliminar usuarios. <br/>
+          - Solo los usuarios de tipo administrador pueden acceder a esta opción.
         </p>
       </div>
     </td>
   </tr>
-  <tr>
-    <td width="100%" colspan="2">
-      <h3 align="center">Gráfico de Resultados</h3>
-      <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/resultados.PNG" width="80%" alt="Results">
-        <p>
-          - Gráfico de barras horizontal, ordenado descendentemente, presentando las mejores series/películas de la categoría actual.<br/>
-          - Botón de 'Descargar': descargar el gráfico de barras en formato .svg pero con las imagenes incrustadas.
-        </p>
-      </div>
-    </td>
-  </tr>
+  
 </table>
 
 
 ## Autor
-Codificado por [Bryan Jhoel Tarco Taipe](https://github.com/bnphony)
+Codificado por [Bryan Jhoel Tarco Taipe](https://github.com/bnphony), basado en el tutorial [Curso de Django3](https://youtu.be/XclfcvFjN48?si=cKXKIUnwvoaoEQpc) por [William Jair Dávila Vargas](https://algorisoft.com/)
 
 ### Contacto
 <a href="https://www.linkedin.com/in/bryan-tarco01" rel="noopener noreferrer" target="_blank">
@@ -265,5 +262,5 @@ Codificado por [Bryan Jhoel Tarco Taipe](https://github.com/bnphony)
 
 
 ## Licencia de Uso
-Este repositorio y todo su contenido está licenciado bajo licencia **Creative Commons**. Por favor si compartes, usas o modificas este proyecto cita a su
-autor, y usa las mismas condiciones para su uso docente, formativo o educativo y no comercial.
+Este repositorio y todo su contenido está licenciado bajo licencia **Creative Commons**. Por favor si compartes, usas o modificas este proyecto cita a sus
+autores, y usa las mismas condiciones para su uso docente, formativo o educativo y no comercial.
