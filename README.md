@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/category_list.PNG" width="80%" alt="Category List">
+  <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/general.PNG" width="80%" alt="Main Screen">
 
   ![GitHub](https://img.shields.io/github/last-commit/bnphony/Sistema-Inventario)
   [![Django](https://img.shields.io/badge/Framework-Django-green)](https://www.djangoproject.com/)
@@ -61,8 +61,8 @@ Sistema de Inventarios y generación de reportes, utilizando DJANGO 3.0. Funcion
 ## Dominio
 
 Gestionar usuarios, categorías, productos, clientes, ventas, generar reportes.
-- Un usuario puede crearse una cuenta, iniciar sesión, restablecer su contraseña utilizando su email.
-- Los usuarios creados a partir del sistema no tienen permisos de administrador.
+- Solo un usuario con privilegios de administrador puede crear nuevos usuarios, desde dentro del sistema.
+- Los usuarios pueden iniciar sesión, restablecer su contraseña, editar su perfil.
 - Un usuario puede crear, actualizar, listar, eliminar categorías.
 - Un usuario puede crear, actualizar, listar, eliminar productos, cada productos pertenece a una categoría.
 - Un usuario puede crear, actualizar, listar, eliminar clientes.
@@ -142,69 +142,65 @@ Gestionar usuarios, categorías, productos, clientes, ventas, generar reportes.
   
   <tr>
     <td width="50%">
-      <h3 align="center">Creación de una Cuenta de Usuario</h3>
+      <h3 align="center">Iniciar Sesión</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/create_account.PNG" width="80%" alt="Create Account">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/login.PNG" width="80%" alt="Login">
         <p>
-          - El nombre del usuario debe ser unico. <br/>- La contraseña debe contener numeros y letras.
+          - Un Usuario puede iniciar sesión con su nombre de usuario y contraseña.
         </p>
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">Iniciar Sesión</h3>
+      <h3 align="center">Restablecer Contraseña</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/login.PNG" width="80%" alt="Login">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/reset_password.PNG" width="80%" alt="Reset Password">
         <p>
-          - Solo los usuarios registrados en la base de datos pueden acceder utilizando su nombre de usuario y contraseña.
+          - Un Usuario puede cambiar su contraseña utilizando su nombre nombre de usuario, con esto se le envía un link a su email con el procedimiento debido.
         </p>
       </div>
     </td>
-  </tr>
   
   <tr>
     <td witdh="100%" colspan="2">
-      <h3 align="center">Resetear Contraseña</h3>
+      <h3 align="center">Gestionar Categorías</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/recover_password.PNG" width="40%" alt="Reset Password 1">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/recover_password_2.PNG" width="40%" alt="Reset Password 2">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/reset_password.PNG" width="80%" alt="Categories">
         <p>
-          - Ingresar el nombre de usuario único para verificar en la base datos y tener acceso para cambiar la contraseña.<br/>
-          - Las 2 contraseñas deben coincidir y debe utilizar numeros y letras.
+          - Crear, actualizar, listar, eliminar categorías.
         </p>
       </div>
     </td>
   </tr>
-
   
   <tr>
     <td width="100%" colspan="2">
-      <h3 align="center">Lista de Categorías</h3>
+      <h3 align="center">Gestionar Productos</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/category_list.PNG" width="80%" alt="Category List">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/productos.PNG" width="80%" alt="Products">
         <p>
-          - Crear una nueva Categoría.<br/>
-          - La imagen de fondo de cada categoría se coloca automáticamente utilizando los logos de las seres/películas que estén registradas dentro de esa categoría.
+          - Crear, actualizar, listar, eliminar productos.
         </p>
       </div>
     </td>
   </tr>
+  
   <tr>
     <td width="100%" colspan="2">
-      <h3 align="center">Lista de Categorías</h3>
+      <h3 align="center">Gestionar Clientes</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/create_serie.PNG" width="80%" alt="Create Serie">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/clientes.PNG" width="80%" alt="Clients">
         <p>
-          - Registrar una serie/película: nombre, logo, número de capítulos (esto crea los nodos para cada capítulo). <br/>
-          - Iconos Verdes de la derecha: Subir/Descargar los datos de las series y capítulos de la categoría actual.
+          - Crear, actualizar, listar, eliminar clientes.
         </p>
       </div>
     </td>
   </tr>
+  
   <tr>
     <td width="100%" colspan="2">
-      <h3 align="center">Actualizar/Eliminar Serie</h3>
+      <h3 align="center">Gestionar Ventas</h3>
       <div align="center">
-        <img src="https://raw.githubusercontent.com/bnphony/Calificar-Series/master/static/img/update_delete_serie.PNG" width="80%" alt="Update/Delete Serie">
+        <img src="https://raw.githubusercontent.com/bnphony/Sistema-Inventario/master/proyecto1/static/img/reset_password.PNG" width="80%" alt="Update/Delete Serie">
         <p>
           - Actualizar o Eliminar la información de una serie asi como todos sus capitulos.          
         </p>
