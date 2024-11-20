@@ -14,9 +14,7 @@
   [![PostgreSQL](https://img.shields.io/badge/DB-PostgreSQL-6598c3)](https://www.postgresql.org/)
   [![JavaScript](https://img.shields.io/badge/Code-JavaSript-orange)](https://developer.mozilla.org/es/docs/Web/JavaScript)
   [![JQuery](https://img.shields.io/badge/Code-JQuery-0769ad)](https://jquery.com/)  
-  
-  
- 
+
 </div>
 
 ## Indice
@@ -37,14 +35,14 @@
  
 ## Descripción
 Sistema de Inventarios y generación de reportes, utilizando DJANGO 3.0. Funciones Principales:
-- Crear una cuenta de usuario, iniciar sesión y acceder al sistema, resetear la contraseña.
-- CREATE, LIST, UPDATE, DELETE categorias.
-- CREATE, LIST, UPDATE, DELETE series/películas.
-- CREATE, LIST, UPDATE, DELETE capítulos de series.
-- Descargar archivo JSON de los datos de una categoría.
-- Subir  datos de series/películas en una categoría utilizando archivo JSON.
-- Mostar un grafico de barras con el ranking de series/películos.
-- Descargar el ranking de series/películas.
+- Gestionar Usuarios.
+- Gestionar Categorías.
+- Gestionar Productos.
+- Gestionar Clientes.
+- Gestionar Ventas.
+- Generar reportes de ventas.
+- Exportar en formato Excel y PDF los reportes de ventas.
+- Visualizar el porcentaje de ventas utilizando gráficos de barras y de sectores (pastel).
 
    
 ### Tecnologías
@@ -62,62 +60,82 @@ Sistema de Inventarios y generación de reportes, utilizando DJANGO 3.0. Funcion
   
 ## Dominio
 
-Gestionar categorias, series/películas, episodios, generar graficos interactivos, reportes.
+Gestionar usuarios, categorías, productos, clientes, ventas, generar reportes.
 - Un usuario puede crearse una cuenta, iniciar sesión, restablecer su contraseña utilizando su email.
-- Un usuario puede crear, actualizar, listar o eliminar categorías.
-- Un usuario puede generar reportes de las valoraciones de series/peliculas por categoría.
-- Una categoría tiene 0 o mas series/películas.
-- Una serie tiene 0 o mas episodios.
-- Un episodio tiene una imagen, descripción, valoración.
-
-### Categoría
-
-| Campo      | Tipo    | Descripción             |
-|------------|---------|-------------------------|
-| id         | UUID    | Identificador único     |
-| nombre     | Varchar | Nombre de la Categoría  |
-| fk_usuario | Usuario | Usuario de la Categoría |
-
-### Serie
-
-| Campo        | Tipo      | Descripción           |
-|--------------|-----------|-----------------------|
-| id           | UUID      | Identificar único     |
-| nombre       | Varchar   | Nombre de la Serie    |
-| logo         | Varchar   | Logo de la Serie      |
-| fk_categoría | Categoría | Categoría de la Serie |
-
-### Episodio
-
-| Campo       | Tipo    | Descripción              |
-|-------------|---------|--------------------------|
-| id          | UUID    | Identificar único        |
-| titulo      | Varchar | Título del Episodio      |
-| imagen      | Varchar | Imagen del Episodio      |
-| descripcion | Varchar | Descripción del Episodio |
-| fk_serie    | Serie   | Serie del Episodio       |
-| value       | Int     | Número del Episodo       |
+- Los usuarios creados a partir del sistema no tienen permisos de administrador.
+- Un usuario puede crear, actualizar, listar, eliminar categorías.
+- Un usuario puede crear, actualizar, listar, eliminar productos, cada productos pertenece a una categoría.
+- Un usuario puede crear, actualizar, listar, eliminar clientes.
+- Un usuario puede crear, actualizar, listar, eliminar, imprimir en pdf las ventas.
+- Cada venta contiene información sobre los productos vendidos y sobre el cliente que compra dichos productos.
+- Un usuario puede generar reportes de las ventas acorde a un rango de fechas y exportarlos en formato excel o pdf.
 
 ### Usuario
 
-| Campo            | Tipo     | Descripción                 |
-|------------------|----------|-----------------------------|
-| id               | UUID     | Identificador único         |
-| Usuario          | Varchar  | Nombre del Usuario          |
-| Password         | Varchar  | Contraseña del Usuario      |
-| Estado           | Varchar  | Estado Actual del Usuario   |
-| Token            | Varchar  | Token de Acceso del Usuario |
-| Token_Expires_At | DateTime | Fecha de Límite del Token   |
+| Campo      | Tipo    | Descripción                 |
+|------------|---------|-----------------------------|
+| id         | UUID    | Identificar único           |
+| image      | Varchar | Imagen del Usuario          |
+| token      | UUID    | Token de Acceso del Usuario |
+| username   | Varchar | Nombre de Usuario           |
+| first_name | Varchar | Primer Nombre del Usuario   |
+| last_name  | Varchar | Apellido del Usuario        |
+| email      | Varchar | Email del Usuario           |
+| password   | Varchar | Contraseña del Usuario      |
 
-### Usuario Token
+### Categoría
 
-| Campo     | Tipo     | Descripción       |
-|-----------|----------|-------------------|
-| TokenId   | UUID     | Identificar único |
-| UsuarioId | Usuario  | Usuario del Token |
-| Token     | Varchar  | Token del Usuario |
-| Estado    | Varchar  | Estado del Token  |
-| Fecha     | DateTime | Fecha del Token   |
+| Campo         | Tipo    | Descripción                 |
+|---------------|---------|-----------------------------|
+| id            | UUID    | Identificar único           |
+| nombre        | Varchar | Nombre de la Categoría      |
+| desc          | Varchar | Descripción de la Categoría |
+| user_creation | Usuario | Usuario de la Categoría     |
+
+### Producto
+
+| Campo  | Tipo      | Descripción            |
+|--------|-----------|------------------------|
+| id     | UUID      | Identificar único      |
+| nombre | Varchar   | Nombre del Producto    |
+| image  | Varchar   | Imagen del Producto    |
+| stock  | Integer   | Cantidad del Producto  |
+| pvp    | Decimal   | Precio del Producto    |
+| cat    | Categoría | Categoría del Producto |
+
+### Cliente
+
+| Campo         | Tipo     | Descripción                     |
+|---------------|----------|---------------------------------|
+| id            | UUID     | Identificar único               |
+| nombres       | Varchar  | Nombres del Cliente             |
+| apellidos     | Varchar  | Apellidos del Cliente           |
+| dni           | Varchar  | Cédula del Cliente              |
+| date_birthday | DateTime | Fecha de Nacimiento del Cliente |
+| address       | Varchar  | Dirección del Cliente           |
+| gender        | Varchar  | Género del Cliente              |
+
+### Venta
+
+| Campo       | Tipo     | Descripción                  |
+|-------------|----------|------------------------------|
+| id          | UUID     | Identificar único            |
+| date_joined | DateTime | Fecha de Creación            |
+| subtotal    | Decimal  | Precio Sub-total de la Venta |
+| iva         | Decimal  | IVA de la Venta              |
+| total       | Decimal  | Precio Total de la Venta     |
+| cli         | Cliente  | Cliente de la Venta          |
+
+### Descripción de la Venta
+
+| Campo    | Tipo     | Descripción                                     |
+|----------|----------|-------------------------------------------------|
+| id       | UUID     | Identificar único                               |
+| price    | Decimal  | Precio del Producto                             |
+| cant     | Integer  | Cantidad a vender                               |
+| subtotal | Decimal  | Precio Sub-total de la venta de este producto/s |
+| sale     | Venta    | Venta de la Descripción de la Venta             |
+| prod     | Producto | Producto de la Descripción de la Venta          |
 
 ## Funciones
 <table>
