@@ -17,7 +17,10 @@ POSTGRESQL = {
         'USER': 'postgres',
         'PASSWORD': '123456789',
         'HOST': 'localhost',
-        'PORT': '5433'
+        'PORT': '5433',
+        'TEST': {
+            'NAME': 'test_inventario',
+        }
     }
 }
 

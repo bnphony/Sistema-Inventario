@@ -1,15 +1,15 @@
+from datetime import datetime
+from random import randint
+
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Sum
 from django.db.models.functions import Coalesce
-from django.http import JsonResponse, HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import TemplateView
-from datetime import datetime
 
-from core.erp.models import Sale, Category, Product, DetSale
-
-from random import randint
+from core.erp.models import Category, DetSale, Product, Sale
 
 
 class DashBoardView(LoginRequiredMixin, TemplateView):
@@ -43,7 +43,7 @@ class DashBoardView(LoginRequiredMixin, TemplateView):
                 }
             elif action == 'get_graph_online':
                 data = {'y': randint(1, 100)}
-                print(data)
+                # print(data)
             else:
                 data['error'] = 'Ha ocurrido un error'
         except Exception as e:
