@@ -13,11 +13,11 @@ SQLITE = {
 POSTGRESQL = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db',
+        'NAME': 'inventario_victoria',
         'USER': 'postgres',
         'PASSWORD': '123456789',
         'HOST': 'localhost',
-        'PORT': '5432'
+        'PORT': '5433'
     }
 }
 
